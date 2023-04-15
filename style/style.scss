@@ -60,6 +60,7 @@ body {
     position: relative;
     left: 0;
     transition: all 0.5s;
+    perspective: 700px;
 
     &--item {
       display: flex;
@@ -70,6 +71,7 @@ body {
       border: 1px solid #EAEAEA;
       border-radius: 6px;
       min-width: 240px;
+      transform: rotateY(3  0deg);
 
       &--button {
         display: flex;
